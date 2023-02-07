@@ -1,0 +1,33 @@
+@startuml
+/'To rund enter <java -jar plantuml.jar objectDiagram.txt> in the terminal where java has to be preinstalled, following are some basic instructions'/
+
+' comment
+/' comment
+block '/
+
+'Class diagram
+class "classThing" as c1 {
+name = class name
+id = 3
+}
+
+'Object diagrams
+object "firstObject" as o1 {
+name = name
+id = 1
+add Info
+}
+object "My Second Object" as o2
+o2 : name = name2
+o2 : id = 2
+
+'basic connections between elements
+o1 "2"--"5" o2 : label
+o1 --|> o2
+o1 .. o2
+
+c1 -- o1
+
+'Sequenz diagram
+Alice -> Bob: test
+@enduml

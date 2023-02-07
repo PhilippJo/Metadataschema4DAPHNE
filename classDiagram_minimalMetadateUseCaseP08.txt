@@ -1,0 +1,36 @@
+@startUML
+/'UML object diagram of a minimal metadata schema for 
+datasets from the DAPHNE use case at P08/LISA concerning 
+Reflectivity X-ray measurements'/
+
+
+'---define objects---
+object "Dataset/P08" as dset1
+object "Sample" as samp1
+'object "Instrument" as inst1
+'object "Electtronic Labbook" as eln1
+'object "Beamline" as bl1
+'object "Facility" as fac1
+'object "Measurement" as meas1
+'object "Technique" as tec1
+object "Licence" as lic1
+
+
+'---define object properties---
+dset1 : PID = 1234
+dset1 : Name = scan-1 
+dset1 : Date = 01.01.2023T11:11:11
+dset1 : Storage Location = /xyc/abs/scan-1.nxs
+dset1 : Datatype = NeXus
+samp1 : Name = AuSi-1-2
+samp1 : PID = 10.12345/AuSi-1-2
+lic1 : Licence Type = CC-BY
+lic1 : Responsible Person = John Doe
+lic1 : Email = john.doe@doeish.com
+
+
+'---define relationships between objects---
+dset1 <|-- samp1
+dset1 <|-- lic1
+
+@endUML
