@@ -25,4 +25,39 @@ dset1 <|-- acs1
 dset1 <|-- lic1
 acs1 .. lic1
 
+
+/'Minimal PLUS metadata schema'/
+'---define objects---
+object "Specimen" as samp1
+
+'---define object properties---
+samp1 : PID = 10.12345/AuSi-1-2
+samp1 : Ressource = sis.org/10.12345/AuSi-1-2
+samp1 : Name = AuSi-1-2
+
+'---define relationships between objects---
+dset1 <|-- samp1
+
+
+/'Richer metadata schema'/
+'---define objects---
+
+
+'---define object properties---
+
+
+'---define relationships between objects---
+
+
+
+
+'---More Ideas---
+'object "Instrument" as inst1
+'object "Electtronic Labbook" as eln1
+'object "Beamline" as bl1
+'object "Facility" as fac1
+'object "Measurement" as meas1
+'object "Technique" as tec1
+
 @endUML
+
