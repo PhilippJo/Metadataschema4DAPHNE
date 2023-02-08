@@ -9,3 +9,9 @@ Created by plantUML
 ![miniPlus schema missing](classDiagram_minimalPlusMetadateUseCaseP08.png "Richer")
 #### Richer Schema
 ![richer schema missing](classDiagram_richerMetadateUseCaseP08.png "Richer")
+---
+### Contribute
+Please feel free to contribute to this schemas by pull reqeuests or issues. Would be highly appreciated. 
+
+---
+Part of TaskArea 1 in DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
