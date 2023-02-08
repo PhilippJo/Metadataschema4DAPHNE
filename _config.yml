@@ -1,2 +1,3 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
+#theme: jekyll-theme-minimal
+remote_theme: olivier3lanc/Jekyll-LibDoc
+title: Schema4DAPHNE
