@@ -1,3 +1,6 @@
 #theme: jekyll-theme-minimal
 remote_theme: olivier3lanc/Jekyll-LibDoc
 title: Schema4DAPHNE
+
+plugins:
+- jekyll-remote-theme
