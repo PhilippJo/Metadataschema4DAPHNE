@@ -1,6 +1,5 @@
-#theme: jekyll-theme-minimal
-remote_theme: olivier3lanc/Jekyll-LibDoc
-title: Schema4DAPHNE
-
-plugins:
-- jekyll-remote-theme
+title: Schema4PaN
+description: Developing a metadata schema for datasets from Photon and Neutron (PaN) experiments, for and together with the community. 
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
