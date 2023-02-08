@@ -1,7 +1,7 @@
-# UML Metadata Schema for DAPHNE
+# UML Metadata Schema for DAPHNE4NFDI
 
-
-## Different metadata schema for PaN Community with different level of detail
+---
+## Multiple metadata schemata for PaN Community with different level of detail
 #### Minimal Schema
 ![minimal schema missing](classDiagram_minimalMetadateUseCaseP08.png "Richer")
 #### MinimalPLUS Schema
@@ -9,8 +9,10 @@
 #### Richer Schema
 ![richer schema missing](classDiagram_richerMetadateUseCaseP08.png "Richer")
 
+---
 ### Contribute
 Please feel free to contribute to this schemas by pull reqeuests or issues. Would be highly appreciated. 
 
-Part of TaskArea 1 in DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
-Created by plantUML (https://plantuml.com/)
+---
+From TaskArea 1 in DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
+*Created by plantUML (https://plantuml.com/)*
