@@ -13,8 +13,9 @@ object "Licence" as lic1
 dset1 : PID = 10.45678/1234
 dset1 : File_Name = Scan-1
 dset1 : Type = Raw
-dset1 : Location = /xyc/abs/
+'dset1 : Location = /xyc/abs/
 dset1 : Datatype = NeXus
+acs1 : Ressource = /abc/xyz
 acs1 : Contact_Person = John Doe
 acs1 : Contact = john.doe@doeish.com
 lic1 : Type = CC BY 2.0 DE
