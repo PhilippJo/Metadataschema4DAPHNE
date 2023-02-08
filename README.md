@@ -1,12 +1,12 @@
 # UML Metadata Schema for DAPHNE4NFDI
-For contributions, starting a disscussion or bug report [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! 
-
-**Motivation**
+**Motivation:**
 Lorem Ipsum
 
 Github Repo: https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-
 
 Github Pages: https://philippjo.github.io/Metadataschema4DAPHNE-UCP08-
+
+For contributions, disscussions or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! 
 
 ---
 ## Multiple metadata schemata for PaN Community with different level of detail
