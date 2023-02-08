@@ -11,11 +11,11 @@ For contributions, disscussions or bug reports [click here](https://github.com/P
 ---
 ### Multiple metadata schemes for PaN experiments with different level of detail
 #### Minimal schema
-![minimal schema missing](../classDiagram_minimalMetadateUseCaseP08.png "minimal")
+![minimal schema missing](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/classDiagram_minimalMetadateUseCaseP08.png "minimal")
 #### Minimal schema with some additional input
-![miniPlus schema missing](../classDiagram_minimalPlusMetadateUseCaseP08.png "miniPlus")
+![miniPlus schema missing](root/classDiagram_minimalPlusMetadateUseCaseP08.png "miniPlus")
 #### Richer and more sophisticated schema
-![richer schema missing](../classDiagram_richerMetadateUseCaseP08.png "richer")
+![richer schema missing](/root/classDiagram_richerMetadateUseCaseP08.png "richer")
 
 ---
 Initiated by TaskArea 1 DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
