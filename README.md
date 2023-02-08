@@ -1,4 +1,4 @@
-# UML Metadata Schema for DAPHNE4NFDI
+# Draft UML Metadata Schema for Photon and Neutron Experiments by DAPHNE4NFDI
 **Motivation:**
 Lorem Ipsum
 
@@ -22,5 +22,6 @@ For contributions, disscussions or bug reports [click here](https://github.com/P
 Please feel free to contribute to this schemas by pull reqeuests or [issues](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues). This would be highly appreciated. 
 
 ---
-Presented by TaskArea 1 DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
+By TaskArea 1 DAPHNE4NFDI (DAten aus PHotonen und Neutronen Experimenten). (https://www.daphne4nfdi.de/)
+
 *Created with plantUML (https://plantuml.com/)*
