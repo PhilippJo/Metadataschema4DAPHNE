@@ -79,7 +79,6 @@ fac1 : Ressource = lps.de
 fac1 : Reponsible_Person = Claudia Chair
 fac1 : Contact = info@lps.de
 
-
 '---define relationships between objects---
 dset1 <|-- inst1
 dset1 <|-- eln1
@@ -89,8 +88,24 @@ inst1 <|-- bl1
 tec1 .. inst1
 
 
+/'Extended metadata schema'/
+'---define objects---
+object "Measurement" as meas1
+object "Experiment" as exp1
+
+'---define object properties---
+meas1 : Energy = 10 keV
+exp1 : Title = XRR on Gold coated Si wafer
+exp1 : Project = BMBF 1234
+exp1 : Principal_Investigator = Peter Ingenieur
+
+'---define relationships between objects---
+exp1 <|-- meas1
+tec1 <|-- exp1
+eln1 .. exp1
+
+
 '---More Ideas---
-'object "Measurement" as meas1
-'object "Experiment" as exp1
+
 @endUML
 
