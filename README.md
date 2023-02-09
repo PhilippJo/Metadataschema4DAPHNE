@@ -6,7 +6,7 @@ Github Repo: [https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-](https:/
 
 Github Pages: [https://philippjo.github.io/Metadataschema4DAPHNE-UCP08-](https://philippjo.github.io/Metadataschema4DAPHNE-UCP08-)
 
-For contributions, discussion’s or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! 
+For contributions, discussionâ€™s or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! Pull request are highly wellcome, as well.  
 
 ---
 ### Multiple metadata schemes for PaN experiments with different level of detail
