@@ -1,0 +1,43 @@
+@startUML
+
+
+/'sample metadata schema'/
+'---define objects---
+object "Specimen" as samp1
+object "(Electronic) Labbook [1..*]" as eln1
+object "Histroy [1..*]" as hist1
+object "Ingredients [1..*]" as ingr1
+
+'---define object properties---
+samp1 : PID = 10.12345/AuSi-1-2
+samp1 : Ressource = sis.org/10.12345/AuSi-1-2
+samp1 : Name = AuSi-1-2
+samp1 : Composition = Au, Si
+samp1 : State = Solid
+samp1 : Description = 50 nm Gold sputtered on Si wafer
+eln1 : ID = 2023-01-Prep
+eln1 : Title = Sample Preparation
+eln1 : Pages = 65-78
+eln1 : Ressource = institut.org/docs/eln/2023-01-Prep
+eln1 : Responsible_Person = Erika Ehrlich
+eln1 : Contact = ehrlich@institut.org
+hist1 : Technique = Wafer Cut
+hist1 : Description = Parent wafer cut in pieces...
+hist1 : Ingredient_ID = [1]
+hist1 : Parent_PID = 10.12345/Si-001
+hist1 : Date = 12.12.2022T01:23:45
+hist1 : Responsible_Person = Clearance Cutter
+ingr1 : Ingredient_ID = 1
+ingr1 : Material_Identifier = CAS12345
+ingr1 : Name = Silicon
+ingr1 : Abbreviation = Si
+ingr1 : State = Solid
+ingr1 : Description = [111] polar Si Wafer with cubic spacegroup Fd3m
+
+'---define relationships between objects---
+hist1 <|-- eln1
+samp1 .. eln1
+samp1 <|-- hist1
+hist1 <|-- ingr1
+
+@endUML
