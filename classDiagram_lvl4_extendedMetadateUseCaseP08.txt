@@ -13,8 +13,9 @@ object "Licence" as lic1
 dset1 : PID = 10.45678/1234
 dset1 : File_Name = Scan-1
 dset1 : Type = Raw
-'dset1 : Location = /xyc/abs/
 dset1 : Datatype = NeXus
+dset1 : Date = 01.01.2023T01:23:45
+dset1 : Related Datasets[0..*] = 10.45678/5678, 10.45678/91011
 acs1 : Ressource = /abc/xyz
 acs1 : Contact_Person = John Doe
 acs1 : Contact = john.doe@doeish.com
@@ -23,8 +24,7 @@ lic1 : Ressource = https://creativecommons.org/licenses/by/2.0/de/
 
 '---define relationships between objects---
 dset1 <|-- acs1
-dset1 <|-- lic1
-acs1 .. lic1
+acs1 <|-- lic1
 
 
 /'Minimal PLUS metadata schema'/
@@ -44,14 +44,12 @@ dset1 <|-- samp1
 '---define objects---
 object "Instrument" as inst1
 object "Beamline" as bl1
-object "Facility" as fac1
+object "Facility/Institute" as fac1
 object "Technique" as tec1
 object "(Electronic) Labbook" as eln1
 
 '---define object properties---
-dset1 : Date = 01.01.2023T01:23:45
-dset1 : Related Datasets[0..*] = 10.45678/5678, 10.45678/91011
-samp1 : Composition = Au, Si
+samp1 : Ingredient = Au, Si
 samp1 : State = Solid
 samp1 : Description = 50 nm Gold sputtered on Si wafer
 eln1 : ID = 2023-02-DESY
@@ -79,30 +77,29 @@ fac1 : Ressource = lps.de
 fac1 : Reponsible_Person = Claudia Chair
 fac1 : Contact = info@lps.de
 
+
 '---define relationships between objects---
-dset1 <|-- inst1
+tec1 <|-- inst1
 dset1 <|-- eln1
 dset1 <|-- tec1
 bl1 <|-- fac1
 inst1 <|-- bl1 
-tec1 .. inst1
 
 
 /'Extended metadata schema'/
 '---define objects---
-object "Measurement" as meas1
+'object "Measurement" as meas1
 object "Experiment" as exp1
 
 '---define object properties---
-meas1 : Energy = 10 keV
+'meas1 : Energy = 10 keV
 exp1 : Title = XRR on Gold coated Si wafer
 exp1 : Project = BMBF 1234
 exp1 : Principal_Investigator = Peter Ingenieur
 
 '---define relationships between objects---
-exp1 <|-- meas1
-tec1 <|-- exp1
-eln1 .. exp1
+'exp1 <|-- meas1
+dset1 <|-- exp1
 
 
 '---More Ideas---

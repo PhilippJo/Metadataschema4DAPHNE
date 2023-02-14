@@ -13,8 +13,9 @@ object "Licence" as lic1
 dset1 : PID = 10.45678/1234
 dset1 : File_Name = Scan-1
 dset1 : Type = Raw
-'dset1 : Location = /xyc/abs/
 dset1 : Datatype = NeXus
+dset1 : Date = 01.01.2023T01:23:45
+dset1 : Related Datasets[0..*] = 10.45678/5678, 10.45678/91011
 acs1 : Ressource = /abc/xyz
 acs1 : Contact_Person = John Doe
 acs1 : Contact = john.doe@doeish.com
@@ -23,8 +24,7 @@ lic1 : Ressource = https://creativecommons.org/licenses/by/2.0/de/
 
 '---define relationships between objects---
 dset1 <|-- acs1
-dset1 <|-- lic1
-acs1 .. lic1
+acs1 <|-- lic1
 
 
 /'Minimal PLUS metadata schema'/
@@ -38,18 +38,6 @@ samp1 : Name = AuSi-1-2
 
 '---define relationships between objects---
 dset1 <|-- samp1
-
-
-/'Richer metadata schema'/
-'---define objects---
-
-
-'---define object properties---
-
-
-'---define relationships between objects---
-
-
 
 
 '---More Ideas---
