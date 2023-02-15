@@ -2,9 +2,9 @@
 **Motivation:**
 Draft a Metadata Schema for Photon and Neutron Experiments. UML is used to visualize the structure and connections of the schema. Multiple schemes are presented thereafter. 
 
-Github Repo: [https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-)
+Github Repo: [https://github.com/PhilippJo/Metadataschema4DAPHNE](https://github.com/PhilippJo/Metadataschema4DAPHNE)
 
-Github Pages: [https://philippjo.github.io/Metadataschema4DAPHNE-UCP08-](https://philippjo.github.io/Metadataschema4DAPHNE-UCP08-)
+Github Pages: [https://philippjo.github.io/Metadataschema4DAPHNE](https://philippjo.github.io/Metadataschema4DAPHNE)
 
 For contributions, discussion’s or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! Pull request are highly wellcome, as well.  
 
