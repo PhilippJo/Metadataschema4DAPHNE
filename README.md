@@ -6,18 +6,18 @@ Github Repo: [https://github.com/PhilippJo/Metadataschema4DAPHNE](https://github
 
 Github Pages: [https://philippjo.github.io/Metadataschema4DAPHNE](https://philippjo.github.io/Metadataschema4DAPHNE)
 
-For contributions, discussion’s or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE-UCP08-/issues/new/choose) and file an issue! Pull request are highly wellcome, as well.  
+For contributions, discussion’s or bug reports [click here](https://github.com/PhilippJo/Metadataschema4DAPHNE/issues/new/choose) and file an issue! Pull request are highly wellcome, as well.  
 
 ---
 ### Multiple metadata schemes for PaN experiments with different levels of detail
 #### Minimal schema
-![minimal schema missing](classDiagram_lvl1_minimalMetadateUseCaseP08.png "minimal")
+![minimal schema missing](classDiagram_lvl1_minimalMetadata.png "minimal")
 #### Minimal schema with some additional input
-![miniPlus schema missing](classDiagram_lvl2_minimalPlusMetadateUseCaseP08.png "miniPlus")
+![miniPlus schema missing](classDiagram_lvl2_minimalPlusMetadata.png "miniPlus")
 #### Richer and more sophisticated schema
-![richer schema missing](classDiagram_lvl3_richerMetadateUseCaseP08.png "richer")
+![richer schema missing](classDiagram_lvl3_richerMetadata.png "richer")
 #### Extended schema
-![extended schema missing](classDiagram_lvl4_extendedMetadateUseCaseP08.png "extended")
+![extended schema missing](classDiagram_lvl4_extendedMetadata.png "extended")
 #### Metadata schema for specimen/samples 
 ![sample schema missing](classDiagram_sampleMetadata.png "sample")
 
